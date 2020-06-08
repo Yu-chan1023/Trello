@@ -1,58 +1,63 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# 概要
+Trelloのようなタスク管理アプリ
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<br>
 
-## About Laravel
+# 作成の目的
+自分自身のタスク管理において、明確な納期の設定や優先順位の優劣、そもそものタスクの把握が甘いと感じていた。 この問題を解決するために作りました。
+また、新しく学習したPHPとLaravelを使用したWebアプリケーションを作成するため。
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+<br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# 特徴
+- デザインはUIを重視し、見ただけで搭載機能が分かるような簡単かつ用途が明確なアプリになっている<br>
+- 1つのリストに対して、複数のカードを追加出来るため、タスク管理が視覚的にわかりやすく、やることが明確に見える<br>
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+<br>
 
-## Learning Laravel
+# 搭載機能
+- ユーザー登録機能<br>
+- リスト登録機能<br>
+- カード登録機能<br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+<br>
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+# 言語
+- PHP 7.2.30 <br>
+- laravel 5.5.49 <br>
+- MySQL 14.14 <br>
+- heroku 7.42.1 <br>
 
-## Laravel Sponsors
+<br>
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+# DB
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
+[![Image from Gyazo](https://i.gyazo.com/8923f3548cad49601cc8955fcdc1a7c8.png)](https://gyazo.com/8923f3548cad49601cc8955fcdc1a7c8)
 
-## Contributing
+<br>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# URL
 
-## Security Vulnerabilities
+http://minami-trello-0608.herokuapp.com/
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<br>
 
-## License
+- テストサンプル
+【email】      test@test.com
+【password】   aaaaaa
+上記アドレスで自由にログインして触ってみてください
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 参考資料
+
+### Trelloのトップページ
+[![Image from Gyazo](https://i.gyazo.com/bc389271474770dee63adb440c4ba5e6.png)](https://gyazo.com/bc389271474770dee63adb440c4ba5e6)
+
+- ”リストの作成”からタスクを作成できます
+- ”さらにカードを追加”からカードを作成できます
+
+<br>
+
+# 今後の拡張予定
+
+- Trelloカードをドラッグ＆ドロップ出来るようにする
+
