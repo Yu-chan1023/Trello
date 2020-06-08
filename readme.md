@@ -42,9 +42,9 @@ http://minami-trello-0608.herokuapp.com/
 
 <br>
 
-- テストサンプル
-【email】      test@test.com
-【password】   aaaaaa
+- テストサンプル <br>
+【email】      test@test.com <br>
+【password】   aaaaaa <br>
 上記アドレスで自由にログインして触ってみてください
 
 # 参考資料
